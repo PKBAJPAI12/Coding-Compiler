@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Compiler</title>
+</head>
+<body>
+    <h1>Write a Program to Compile Code</h1>
+    <div style="width:90%; margin:auto">
+      <div style="display:flex; justify-content:space-between">
+    <h4>Type Your Code</h4>
+    <select name="language" id="language">
+      <option value="0">Python</option>
+      <option value="4">JavaScript</option>
+      <option value="7">C</option>
+      <option value="77">C++</option>
+        <option value="8">Java</option>
+    </select> 
+     </div>
+     <div style="display:flex; justify-content:center; margin:12px 0px";>
+       <textarea style="width:100%" rows="20" id="codeinput">print ('Hello Python')
+    </textarea>
+       </div>
+       <div style="display:flex; background-color:black; height:6rem">
+        <h3 style="color:white"><span id="codeoutput"></span></h3>
+       </div>
+       <button style="background-color:yellow; margin-top:10px; width:15%; border-radius:5px" id="compilebtn">Compile</button>
+    </div>
+      </body>
+      <script src="script.js"></script>
+</html>
