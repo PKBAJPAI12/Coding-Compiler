@@ -48,3 +48,8 @@ If object's data field is empty it means result is not ready or removed from ser
 If result is ready you'll get output or errors in data's object.
 
 {"data"{output: "", langid: "0", code: "", errors: " "}}
+
+
+## Live Coding Compiler Project Link:
+
+https://compilercoding-3p34g82fr9el8g3cept.web.codequotient.com
